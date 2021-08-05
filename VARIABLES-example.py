@@ -1,0 +1,4 @@
+
+TOKEN_VAR = ''
+ADMIN_ID = ''
+QUERY_TIME_API = 1.0
