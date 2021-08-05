@@ -1,14 +1,14 @@
 # Crypto-USD-GoalTelegramBot
 Telegram Bot made to send you a message when you reach a goal with your cryptocurrencies.
 
-# Run
+## Run
 
 1. Rename `VARIABLES-example.py` to `VARIABLES.py`.
 2. Set in `VARIABLES.py` your Telegram Bot TOKEN and the admin id.
 3. Execute `pip install -r requirements.txt` to install dependencies.
 4. Execute `python main.py`.
 
-# Commands
+## Commands
 
 - `/make_data {currency}` : To make new data from the user, send a dictionary with the name of the currency and cuantity. Example: `/make_data {"BTCUSDT":1.03,"SHIBUSDT":200.01}`.
 
@@ -20,3 +20,5 @@ Telegram Bot made to send you a message when you reach a goal with your cryptocu
 
 - `/get_total` : Returns the total USD sum of your currencies.
 
+
+Currency values are from [Binance API]("https://api.binance.com/api/v3/ticker/price")
